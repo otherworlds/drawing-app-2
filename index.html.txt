@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawing App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="color" id="colorPicker">
+        <input type="color" id="bgColorPicker">
+        <input type="range" id="brushSize" min="1" max="20" value="4">
+        <button id="clearBtn">Clear Canvas</button>
+        <button id="saveBtn">Save Drawing</button>
+        <label for="ellipseSize">Ellipse Size:</label>
+        <input type="range" id="ellipseSize" min="10" max="250" value="20">
+    </div>
+</body>
+</html>
